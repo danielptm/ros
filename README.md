@@ -3,7 +3,7 @@ https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html
 
 ## Setup completed
 - laptop ✅
-- desktop
+- desktop ✅
 
 ## setup command
 `source /opt/ros/jazzy/setup.bash`
