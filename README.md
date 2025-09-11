@@ -14,6 +14,7 @@ https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html
 
 ## to build project (inside src/)
 `colcon build`
+`colcon build --packages-select my_py_pkg`
 
 ## To uninstall
 See the above link at the bottom of the page
