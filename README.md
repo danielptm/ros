@@ -7,6 +7,7 @@ https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html
 
 ## setup command
 `source /opt/ros/jazzy/setup.bash`
+`source /home/daniel/projects/ros/install/setup.bash`
 
 ## how to create a package
 `ros2 pkg create my_py_pkg --build-type ament_python --dependencies rclpy`
@@ -16,3 +17,5 @@ https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html
 
 ## To uninstall
 See the above link at the bottom of the page
+
+
