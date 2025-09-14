@@ -14,6 +14,8 @@ class AddTwoIntsServer(Node):
         return response
 
 
+# Call with this service with this command
+# ros2 service call /add_two_ints example_interfaces/srv/AddTwoInts "{a: 3, b: 4}"
 def main(args=None):
     rclpy.init(args=args)
     node = AddTwoIntsServer()
