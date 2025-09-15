@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:10 (fint_package):
+  Unknown CMake command "fint_package".
+
+[0m

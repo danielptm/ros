@@ -1,0 +1,7 @@
+[0.011s] Invoking command in '/home/daniel/projects/ros/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/projects/ros/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daniel/projects/ros/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/daniel/projects/ros/install/my_robot_interfaces
+[0.020s] [31mCMake Error at CMakeLists.txt:9:
+[0.020s]   Parse error.  Expected a newline, got identifier with text "find_package".
+[0.020s] 
+[0.020s] [0m
+[0.020s] -- Configuring incomplete, errors occurred!
+[0.022s] Invoked command in '/home/daniel/projects/ros/build/my_robot_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/projects/ros/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daniel/projects/ros/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/daniel/projects/ros/install/my_robot_interfaces

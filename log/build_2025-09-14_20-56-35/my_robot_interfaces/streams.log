@@ -1,0 +1,21 @@
+[0.006s] Invoking command in '/home/daniel/projects/ros/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/projects/ros/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daniel/projects/ros/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/daniel/projects/ros/install/my_robot_interfaces
+[0.058s] -- The C compiler identification is GNU 13.3.0
+[0.096s] -- The CXX compiler identification is GNU 13.3.0
+[0.111s] -- Detecting C compiler ABI info
+[0.181s] -- Detecting C compiler ABI info - done
+[0.188s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.189s] -- Detecting C compile features
+[0.189s] -- Detecting C compile features - done
+[0.196s] -- Detecting CXX compiler ABI info
+[0.271s] -- Detecting CXX compiler ABI info - done
+[0.278s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.278s] -- Detecting CXX compile features
+[0.278s] -- Detecting CXX compile features - done
+[0.281s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.370s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.428s] -- Configuring incomplete, errors occurred!
+[0.429s] [31mCMake Error at CMakeLists.txt:10 (fint_package):
+[0.429s]   Unknown CMake command "fint_package".
+[0.429s] 
+[0.429s] [0m
+[0.432s] Invoked command in '/home/daniel/projects/ros/build/my_robot_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/projects/ros/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daniel/projects/ros/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/daniel/projects/ros/install/my_robot_interfaces
