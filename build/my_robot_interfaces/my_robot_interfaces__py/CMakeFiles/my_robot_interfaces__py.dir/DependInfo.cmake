@@ -17,6 +17,9 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/daniel/projects/ros/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/msg/__init__.py" "/home/daniel/projects/ros/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/daniel/projects/ros/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/msg/_hardware_status.py" "/home/daniel/projects/ros/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/daniel/projects/ros/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/msg/_hardware_status_s.c" "/home/daniel/projects/ros/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/daniel/projects/ros/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/__init__.py" "/home/daniel/projects/ros/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/daniel/projects/ros/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area.py" "/home/daniel/projects/ros/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/daniel/projects/ros/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/srv/_compute_rectangle_area_s.c" "/home/daniel/projects/ros/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 
