@@ -1,0 +1,16 @@
+[0.009s] Invoking command in '/home/daniel/projects/ros/src/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/projects/ros/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daniel/projects/ros/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/daniel/projects/ros/src/install/my_robot_interfaces
+[0.033s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.568s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.571s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.624s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.655s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.656s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[2.656s]   rosidl_generate_interfaces() the passed file 'msg/LedStateArray.msg'
+[2.656s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[2.656s]   '/home/daniel/projects/ros/src/my_robot_interfaces'
+[2.657s] Call Stack (most recent call first):
+[2.657s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[2.657s] 
+[2.657s] [0m
+[2.657s] -- Configuring incomplete, errors occurred!
+[2.662s] Invoked command in '/home/daniel/projects/ros/src/build/my_robot_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/projects/ros/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daniel/projects/ros/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/daniel/projects/ros/src/install/my_robot_interfaces
