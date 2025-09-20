@@ -22,11 +22,22 @@ See the above link at the bottom of the page
 ## To start pubsub
 - `colcon build --packages-select my_py_pkg`
 - `source ~/.bashrc`
+#### In terminal 1
 - `ros2 run my_py_pkg robot_news_station`
-###In another terminal
-terminal1
-`ros2 run my_py_pkg smartphone`
+#### In terminal 2
+- `ros2 run my_py_pkg smartphone`
 
-terminal2
+
+##In publish hardware messages
+#### terminal1
+`ros2 run my_py_pkg hardware_status_publisher`
+#### terminal2
 `ros2 topic echo /hardware_status`
+
+## Run a server and client
+#### terminal 1
+`ros2 run my_py_pkg add_two_ints_server`
+
+#### terminal 2
+`ros2 run my_py_pkg add_two_ints_client`
 
