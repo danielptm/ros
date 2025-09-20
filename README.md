@@ -24,5 +24,9 @@ See the above link at the bottom of the page
 - `source ~/.bashrc`
 - `ros2 run my_py_pkg robot_news_station`
 ###In another terminal
+terminal1
 ros2 run my_py_pkg smartphone
+
+terminal2
+ros2 topic echo /hardware_status
 

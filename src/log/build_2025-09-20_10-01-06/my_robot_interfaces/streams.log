@@ -1,0 +1,42 @@
+[0.008s] Invoking command in '/home/daniel/projects/ros/src/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/projects/ros/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daniel/projects/ros/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/daniel/projects/ros/src/install/my_robot_interfaces
+[0.022s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.634s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.637s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.687s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.723s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[5.263s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[5.263s]   execute_process(/home/daniel/.pyenv/shims/python3 -m rosidl_adapter
+[5.263s]   --package-name my_robot_interfaces --arguments-file
+[5.263s]   /home/daniel/projects/ros/src/build/my_robot_interfaces/rosidl_adapter__arguments__my_robot_interfaces.json
+[5.263s]   --output-dir
+[5.263s]   /home/daniel/projects/ros/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces
+[5.263s]   --output-file
+[5.263s]   /home/daniel/projects/ros/src/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces.idls)
+[5.263s]   returned error code 1:
+[5.263s] 
+[5.263s]   Traceback (most recent call last):
+[5.263s] 
+[5.263s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[5.264s]     File "<frozen runpy>", line 88, in _run_code
+[5.264s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[5.264s]       sys.exit(main())
+[5.264s]                ^^^^^^
+[5.264s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[5.264s]       abs_idl_file = convert_to_idl(
+[5.264s]                      ^^^^^^^^^^^^^^^
+[5.264s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 18, in convert_to_idl
+[5.264s]       from rosidl_adapter.msg import convert_msg_to_idl
+[5.264s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 16, in <module>
+[5.264s]       from rosidl_adapter.resource import expand_template
+[5.264s]     File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>
+[5.264s]       import em
+[5.264s] 
+[5.264s]   ModuleNotFoundError: No module named 'em'
+[5.264s] 
+[5.264s] Call Stack (most recent call first):
+[5.264s]   /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[5.264s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[5.264s] 
+[5.264s] [0m
+[5.265s] -- Configuring incomplete, errors occurred!
+[5.275s] Invoked command in '/home/daniel/projects/ros/src/build/my_robot_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/daniel/projects/ros/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/daniel/projects/ros/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/daniel/projects/ros/src/install/my_robot_interfaces

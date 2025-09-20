@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "my_robot_interfaces")
 set(my_robot_interfaces_VERSION "0.0.0")
-set(my_robot_interfaces_MAINTAINER "daniel <danielptm@me.com>")
+set(my_robot_interfaces_MAINTAINER "ed <ed@todo.todo>")
 set(my_robot_interfaces_BUILD_DEPENDS )
 set(my_robot_interfaces_BUILDTOOL_DEPENDS "ament_cmake" "rosidl_default_generators")
 set(my_robot_interfaces_BUILD_EXPORT_DEPENDS )
