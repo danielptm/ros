@@ -12,6 +12,17 @@ https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html
 ## how to create a package
 `ros2 pkg create my_py_pkg --build-type ament_python --dependencies rclpy`
 
+## How to create interfaces
+1. Create a package for your interfaces like this: `ros2 pkg create my_py_pkg`
+2. Remove include and src folders
+3. Ensure that CmakeLists.txt has the same code as what it does in my_robot_interfaces package
+4. Ensure that package.xml has the same relevant code as it does in the my_robot_interfaces package
+5. Create interfaces similar to what is in the msg and srv folders
+
+
+
+
+
 ## to build project (inside src/)
 `colcon build`
 `colcon build --packages-select my_py_pkg`
